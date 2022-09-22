@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 80%;
+   /* background-color: palevioletred;*/
+    padding: 30px;
+    margin: auto;
+
+
+}
+.container h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 60px;
+
+}
+p{ 
+       
+
+   font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+input,textarea{
+    border: 3px solid black;
+    border-radius: 12px;
+    outline: none;
+    width: 80%;
+    margin: 15px auto;
+    padding: 20px;
+    font-size: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color:white;
+    background-color:rgb(16, 88, 133);
+    padding: 10px 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.BG{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+.submitMsg{
+    
+    color: green;
+    padding: 0px;
+}
+/*INSERT INTO `trip` (`serial`, `name`, `age`, `gender`, `email`, `phone`, `others`, `date`) VALUES ('1', 'bush', '22', 'female', 'abc@gmail.com', '01977503085', 'bnvuytgi9jhiouj', current_timestamp()); 
+*/
